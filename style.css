@@ -42,6 +42,64 @@ li:hover {
   border-bottom: 1px solid white;
 }
 
+.info {
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.home {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+h1 {
+  font-size: 45px;
+  font-weight: 100;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 300;
+}
+.three {
+  font-size: 24px;
+  font-weight: 500;
+}
+.para-one {
+  font-size: 24px;
+}
+.about {
+  padding-bottom: 60px;
+}
+.grid {
+  display: grid;
+  gap: 20px;
+  //   column-gap: 20px;
+  //   row-gap: 20px;
+}
+.left {
+  grid-column: 1;
+}
+.right {
+  grid-column: 2;
+}
+.form-inputs {
+  display: grid;
+  column-gap: 20px;
+}
+.row1 {
+  grid-row: 1;
+}
+.name,
+.details,
+.address {
+  display: flex;
+  flex-direction: column;
+}
+textarea {
+  width: 100%;
+}
+.row2 {
+  grid-row: 1;
+}
 footer {
   position: fixed;
   bottom: 0;
