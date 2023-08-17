@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(assets/toyota2.jpg);
+  background-attachment: fixed;
+  object-fit: scale-down;
+}
+
+.container {
+  //   width: 100%;
+  //   height: 100vh;
+}
+
+.header {
+  background-color: mediumseagreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+}
+
+ul {
+  list-style: none;
+}
+
+.items {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+li {
+  font-size: larger;
+  padding-left: 20px;
+}
+li:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: mediumseagreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
