@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -11,11 +12,6 @@ body {
 #contacts,
 #about {
   display: none;
-}
-
-.container {
-  //   width: 100%;
-  //   height: 100vh;
 }
 
 .header {
@@ -48,19 +44,24 @@ li:hover {
 }
 
 .info {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 50px;
   text-align: center;
   padding-top: 20px;
   padding-left: 60px;
   padding-right: 60px;
 }
 
-.home {
+.home,
+.about,
+.contacts {
   margin-top: 30px;
   margin-right: 50px;
   margin-left: 50px;
   margin-bottom: 60px;
+}
+
+.headingOne {
+  background-color: #cfe0e8;
 }
 
 h1 {
@@ -81,15 +82,14 @@ h2 {
   font-size: 24px;
 }
 
-.about {
-  margin-bottom: 60px;
-  margin-right: 50px;
-  margin-left: 50px;
-}
-
 .grid {
   display: grid;
   column-gap: 20px;
+}
+
+.about-para {
+  font-size: 20px;
+  font-weight: 100;
 }
 
 .left {
@@ -101,13 +101,6 @@ h2 {
 }
 .contacts {
   display: none;
-}
-
-.contacts {
-  margin-top: 50px;
-  margin-right: 50px;
-  margin-left: 50px;
-  padding: 20px;
 }
 
 .form {
@@ -184,14 +177,17 @@ textarea:focus {
 
 .survey {
   margin: 50px;
-  // margin-top: 50px;
-  // margin-bottom: 50px;
-  // margin-left: 60px;
-  // margin-right: 60px;
 }
+
+.para {
+  font-size: 24px;
+  font-weight: 300;
+}
+
 .form-survey {
   padding: 15px;
 }
+
 .survey-info {
   text-align: left;
 }

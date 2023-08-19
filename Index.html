@@ -18,7 +18,7 @@
       </header>
       <main class="info">
         <section class="home" id="home">
-          <h1>Home</h1>
+          <h1 class="headingOne">Home</h1>
           <h2>Welcome to Toyota Vehicle Review Hub</h2>
           <h3 class="three">Discover the World of Toyota Excellence</h3>
           <p class="para-one">
@@ -30,11 +30,11 @@
           </p>
         </section>
         <section class="about" id="about">
-          <h1>About</h1>
+          <h1 class="headingOne">About</h1>
           <div class="grid">
             <div class="left">
               <h2>What are we?</h2>
-              <p>
+              <p class="about-para">
                 Welcome to the Toyota Vehicles Review Hub, your ultimate
                 destination for comprehensive and insightful reviews of Toyota
                 vehicles. We're your go-to source for unbiased information and
@@ -47,19 +47,19 @@
             </div>
             <div class="right">
               <h2>What sets up apart</h2>
-              <p>
+              <p class="about-para">
                 <span>Expert Analysis:</span> Our team of automotive enthusiasts
                 and experts meticulously test and evaluate every aspect of
                 Toyota vehicles, from performance and safety to technology and
                 design. We provide you with detailed insights that matter.
               </p>
-              <p>
+              <p class="about-para">
                 <span>Real User Experience:</span> We understand the importance
                 of real-world experiences. That's why we incorporate feedback
                 from actual Toyota owners, giving you a well-rounded view of
                 what it's like to drive and own these vehicles.
               </p>
-              <p>
+              <p class="about-para">
                 <span>Unbiased Reporting:</span> Our commitment to objectivity
                 ensures that you receive accurate information. We highlight both
                 the strengths and potential areas for improvement of each model,
@@ -69,7 +69,7 @@
           </div>
         </section>
         <section class="contacts" id="contacts">
-          <h1>Contact</h1>
+          <h1 class="headingOne">Contact</h1>
           <form action="" class="form">
             <div class="form-inputs">
               <div class="name">
@@ -108,8 +108,8 @@
           </form>
         </section>
         <section class="survey" id="survey">
-          <h1>Survey</h1>
-          <p>
+          <h1 class="headingOne">Survey</h1>
+          <p class="para">
             Thank you for taking the time to participate in our Toyota Vehicle
             Survey. Your valuable insights will help us understand preferences
             and opinions regarding Toyota vehicles. Please provide your honest
@@ -145,15 +145,15 @@
               <p>2. How familiar are you with current Toyota lineup?</p>
               <div class="options">
                 <div>
-                  <input type="radio" />
+                  <input type="radio" name="familiarity" id="very" />
                   <label for="very">Very Familiar</label>
                 </div>
                 <div>
-                  <input type="radio" />
+                  <input type="radio" name="familiarity" id="somewhat" />
                   <label for="somewhat">Somewhat Familiar</label>
                 </div>
                 <div>
-                  <input type="radio" />
+                  <input type="radio" name="familiarity" id="not" />
                   <label for="not">Not Familiar at all</label>
                 </div>
               </div>
@@ -162,11 +162,11 @@
               <p>3. Have you owned or currently own a Toyota vehicle?</p>
               <div class="options">
                 <div>
-                  <input type="radio" />
+                  <input type="radio" name="vehicle-ownership" id="yes" />
                   <label for="yes">Yes</label>
                 </div>
                 <div>
-                  <input type="radio" />
+                  <input type="radio" name="vehicle-ownership" id="no" />
                   <label for="no">No</label>
                 </div>
               </div>
@@ -258,23 +258,48 @@
               </p>
               <div class="options">
                 <div>
-                  <input type="radio" id="1" value="very dissatisfied" />
+                  <input
+                    type="radio"
+                    id="1"
+                    name="satisfaction"
+                    value="very dissatisfied"
+                  />
                   <label for="very dissatisfied">1 (Very dissatisfied)</label>
                 </div>
                 <div>
-                  <input type="radio" id="2" value="dissatisfied" />
+                  <input
+                    type="radio"
+                    id="2"
+                    name="satisfaction"
+                    value="dissatisfied"
+                  />
                   <label for="dissatisfied">2 (dissatisfied)</label>
                 </div>
                 <div>
-                  <input type="radio" id="3" value="neutral" />
+                  <input
+                    type="radio"
+                    id="3"
+                    value="neutral"
+                    name="satisfaction"
+                  />
                   <label for="neutral">3 (Neutral)</label>
                 </div>
                 <div>
-                  <input type="radio" id="4" value="satisfied" />
+                  <input
+                    type="radio"
+                    id="4"
+                    value="satisfied"
+                    name="satisfaction"
+                  />
                   <label for="satisfied">4 (Satisfied)</label>
                 </div>
                 <div>
-                  <input type="radio" id="5" value="very satisfied" />
+                  <input
+                    type="radio"
+                    id="5"
+                    value="very satisfied"
+                    name="satisfaction"
+                  />
                   <label for="very satisfied">5 (Very Satisfied)</label>
                 </div>
               </div>
