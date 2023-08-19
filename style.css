@@ -5,9 +5,7 @@
 }
 
 body {
-  background-image: url(assets/toyota2.jpg);
-  background-attachment: fixed;
-  object-fit: scale-down;
+  background-color: #b7d7e8;
 }
 
 .container {
@@ -16,11 +14,11 @@ body {
 }
 
 .header {
-  background-color: mediumseagreen;
+  background-color: #87bdd8;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 14px;
+  padding: 10px;
 }
 
 ul {
@@ -35,7 +33,7 @@ ul {
 
 li {
   font-size: larger;
-  padding-left: 20px;
+  margin-left: 20px;
 }
 
 li:hover {
@@ -175,12 +173,40 @@ textarea:focus {
   color: white;
 }
 
+.survey {
+  margin: 50px;
+  // margin-top: 50px;
+  // margin-bottom: 50px;
+  // margin-left: 60px;
+  // margin-right: 60px;
+}
+.form-survey {
+  padding: 15px;
+}
+.survey-info {
+  text-align: left;
+}
+
+.survey-info > p {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.options {
+  padding-top: 15px;
+  padding-left: 30px;
+}
+
+.options > div {
+  padding-bottom: 12px;
+}
+
 footer {
   position: fixed;
   bottom: 0;
   width: 100%;
   height: 30px;
-  background-color: mediumseagreen;
+  background-color: #87bdd8;
   display: flex;
   justify-content: center;
   align-items: center;
